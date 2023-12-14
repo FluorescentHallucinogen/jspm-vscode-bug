@@ -1,7 +1,7 @@
 {
   "scripts": {
     "serve": "npx http-server -c-1 -o",
-    "generate": "jspm link index.html -p nodemodules index.html"
+    "generate": "jspm link index.html -p nodemodules -o index.html"
   },
   "dependencies": {
     "es-module-shims": "^1.8.2",
